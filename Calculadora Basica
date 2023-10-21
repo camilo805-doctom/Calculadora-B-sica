@@ -1,0 +1,51 @@
+
+#valida la entrada del usuario 
+while True:
+
+    print("""
+          ingrese la opcion que desea realizar:
+          1. Suma
+          2. Resta
+          3. Multiplicacion
+          4. Division
+          5. Potenciacion
+          6. Division entera
+          7. Modulo
+           """)
+    
+    #entrada de usuario para elegir la operacion a realizar
+    eleccion=int(input("ingrese una opcion: "))
+
+
+    #Hace el ejercicio solicitado con la entrada inicial
+    if eleccion==1:
+        print("El resultado de la suma es: ", u+a )
+
+    if eleccion==2:
+        print("El resultado de la resta es: ", u-a)
+
+    if eleccion==3:
+        print("El resultado de la multiplicacion es: ", u*a)
+
+    if eleccion==4:
+        print("El resultado de la division es: ", u/a)
+
+    if eleccion==5:
+        print("El resultado de la potenciacion entera es: ", u**a)
+
+    if eleccion==6:
+        print("El resultado del division entera es: ", u//a)
+
+    if eleccion==7:
+        print("El resultado del modulo es: ", u%a)
+
+
+    #entrada de usuario para salir de la calculadora
+    usuario=str(input("¿Desea salir de la calculadora? "))
+
+    #comprurba la entrada del usuario si se ingresa "Si" saldra de la operacion
+    if usuario=="Si":
+
+        print("hasta la proxima operacion")
+
+        break
