@@ -1,4 +1,6 @@
-
+#entrada del usuario
+u=float(input("ingresé un número: ))
+a=float(input("ingresé un número: ))
 #valida la entrada del usuario 
 while True:
 
